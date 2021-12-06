@@ -174,14 +174,10 @@ body {
   border-style: none;
 }
 
-.portfolio-btn.current {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
-
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* примеры работ */
@@ -195,9 +191,4 @@ body {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
-}
-
-.examples li:hover,
-.examples li:focus {
-  background-color: var(--accent-color);
 }
